@@ -14,7 +14,7 @@ export default function Root() {
             </li>
 
             <li>
-              <Link to={`product/1`} state={{ hello: "oi" }}>
+              <Link to={`product/1`} state={{ hello: "hi" }}>
                 Product
               </Link>
             </li>
