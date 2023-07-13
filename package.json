@@ -1,5 +1,5 @@
 {
-  "name": "web-app",
+  "name": "react-vite-on-s3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
