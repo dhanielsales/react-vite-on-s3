@@ -43,6 +43,8 @@
     - Add user to group
   - Download credentials
 
+#### Github 
+
 - Add credencials on Github Secrets in accordance with the environment
   - AWS_ACCESS_KEY_ID
   - AWS_SECRET_ACCESS_KEY
