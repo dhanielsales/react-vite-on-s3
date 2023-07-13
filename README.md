@@ -34,6 +34,9 @@
     - Customize error response: Yes
       - Response page path: /index.html
       - HTTP Response code: 200
+- Configure Invalidations on distribution
+  - Invalidations -> Create invalidation
+    - Object paths: /*
 
 - Create IAM user
   - Create a group
