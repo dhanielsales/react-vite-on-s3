@@ -5,12 +5,15 @@ on:
     - main
 
 jobs:
-  deploy:
+  Production-Deployment:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
+    - uses: actions/checkout@v3
+    - name: Install Packages
+      run: npm install
 
+    - name: Build App
+      run: npm run build
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
