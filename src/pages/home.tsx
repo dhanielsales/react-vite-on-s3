@@ -1,14 +1,12 @@
 export function Home() {
   const person = {
-    name: 'batat',
-    email: 'quente'
-  }
+    name: "batat",
+    email: "quente",
+  };
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <h1 className="text-3xl font-bold underline">Hello world! Updated</h1>
       <ul role="list" className="p-6 divide-y divide-slate-200">
         <li className="flex py-4 first:pt-0 last:pb-0">
           <div className="ml-3 overflow-hidden">
@@ -21,5 +19,5 @@ export function Home() {
         Save changes
       </button>
     </>
-  )
+  );
 }
