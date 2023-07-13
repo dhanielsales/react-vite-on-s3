@@ -25,7 +25,7 @@
 - Create a distribution on CloudFront
   - Origin domain: Select the bucket
   - Origin access: Legacy access identities
-    - Origin access identity: Select the same bucket
+    - Origin access identity: Select (Recomended) or Create one for the same bucket
     - Bucket policy: Yes, update the bucket policy
   - Web Application Firewall (WAF): Enable security protections
 - Configure Error Pages on distribution
